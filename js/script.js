@@ -11,7 +11,7 @@ console.log(isMobile)
 window.addEventListener("scroll", function(){
     // console.log(window.scrollY)
     if(isMobile){
-        if(this.window.scrollY > 480 && this.window.scrollY < 1350){
+        if(this.window.scrollY > 480 && this.window.scrollY < 1450){
             aside.style.setProperty("background-color", "white")
         }else{
             aside.style.setProperty("background-color", asideBgColor)
