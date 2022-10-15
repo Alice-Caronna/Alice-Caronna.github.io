@@ -7,7 +7,7 @@ console.log(asideBgColor);
 
 window.addEventListener("scroll", function(){
     console.log(window.scrollY)
-    if(this.window.scrollY > 400){
+    if(this.window.scrollY > 400 && this.window.scrollY < 950){
         aside.style.setProperty("background-color", "white")
     }else{
         aside.style.setProperty("background-color", asideBgColor)
