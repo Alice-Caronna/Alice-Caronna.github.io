@@ -421,7 +421,7 @@ iframe {
     width: 100%
   }
 
-  /* PRESS */
+  /* PRESS
   .articoli {
     height: 100%;
   }
@@ -433,7 +433,7 @@ iframe {
   .articolo-container {
     width: 85%;
     margin: 15px auto;
-  }
+  } */
 
   /* SOUNDCLOUD */
 
@@ -458,7 +458,6 @@ iframe {
   }
   .video .container {
     flex-direction: column;
-    align-items: center;
     height: 100%;
   }
 
