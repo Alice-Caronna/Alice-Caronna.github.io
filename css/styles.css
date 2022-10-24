@@ -103,10 +103,28 @@ aside {
   color: black;
 }
 
-.socials a:hover, .links:hover {
+.socials a:hover .fa-brands.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.socials a:nth-child(2):hover{
+  color: hsl(0, 80%, 55%);
+}
+
+.socials a:nth-child(3):hover{
+  color:hsl(142, 65%, 55%) ;
+}
+
+
+.links:hover {
   color: rgb(40, 40, 40);
   text-decoration: underline;
 }
+
 
 .links {
   font-size: 1.5rem;
@@ -347,7 +365,7 @@ iframe {
 
   .landing-page img {
     height: calc(100vh);
-    object-position: -97px 0;
+    object-position: 0 0;
   }
 
   /* ASIDE */

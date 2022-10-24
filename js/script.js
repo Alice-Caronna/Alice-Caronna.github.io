@@ -10,7 +10,7 @@ console.log(mediaQuery)
 
 function colorOnMobile(mediaQuery){
   if(mediaQuery.matches){
-    if(this.window.scrollY > 480 && this.window.scrollY < 1250){
+    if(this.window.scrollY > 480){
       aside.style.setProperty("background-color", "white");
   }else {
     aside.style.setProperty("background-color", asideBgColor);
@@ -21,7 +21,7 @@ function colorOnMobile(mediaQuery){
 
 
 
-colorOnMobile(mediaQuery);
+ colorOnMobile(mediaQuery);
 
 
 
@@ -29,4 +29,25 @@ window.addEventListener("scroll", function(){
   colorOnMobile(mediaQuery);
 })
 
-let ciao = "ciao"
+
+// let touchstartX = 0
+// let touchendX = 0
+    
+// function checkDirection() {
+//   if (touchendX < touchstartX) {
+//     aside.style.setProperty("background-color", "red");
+
+//   }
+//   if (touchendX > touchstartX){
+//     aside.style.setProperty("background-color", asideBgColor);
+//   }
+// }
+
+// document.addEventListener('touchstart', e => {
+//   touchstartX = e.changedTouches[0].screenX
+// })
+
+// document.addEventListener('touchend', e => {
+//   touchendX = e.changedTouches[0].screenX
+//   checkDirection()
+// })
